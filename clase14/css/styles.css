@@ -37,7 +37,7 @@ header h1 {
 }
 
 .hero div {
-    position:relative;
+    /*position:relative;*/
     background-color:#F3F3F3;
     border-radius:1em;
     height:500px;
@@ -81,7 +81,6 @@ header h1 {
     background-color:#00669F;
     padding:1em 2em;
     color:white;
-    border-radious-top:1em;
     font-size:10px;
     width:80px;
     position:absolute;
@@ -92,7 +91,6 @@ header h1 {
 footer {
     background-color:#00669F;
     width:100%;
-    position:fixed;
     bottom:0px;
 }
 
@@ -102,7 +100,7 @@ footer p {
 }
 
 @media (max-width:600px) {
-    #batman {
+    div.des {
         display: none;
         border: 2px solid red;
     }

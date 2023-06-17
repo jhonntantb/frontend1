@@ -1,0 +1,323 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    color: white;
+}
+
+body {
+    max-width: 1024px;
+    margin: auto;
+    background-color: #ffffff;
+}
+
+/* Estilos de la parte top*/
+header .top {
+    height: 20px;
+    background-color: #222222;
+    display: flex;
+    padding: 5px;
+    font-size: 10px;
+    text-align: center;
+    justify-content: space-around;
+}
+header .top ul {
+    display: flex;
+    gap: 2em;
+}
+
+/* Estilos del header*/
+header .header {
+    background-color: #F0A83E;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+.logo span {
+    color: #3C2313;
+}
+.header nav ul {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+}
+.header .menu {
+    display: none;
+}
+
+header nav ul li{
+    list-style-image: url(../image/pawprint\ 4.png);
+}
+/* Estilos del Main*/
+
+/* Estilos del slide*/
+
+.slide {
+    height: 409px;
+    background-image: url(../image/bowl-and-pet-daities-on-green-background\ 1.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+}
+.slide .text {
+    display: flex;
+    flex-direction: column;
+    height: 140px;
+    gap: 1em;
+    align-items: center;
+    padding: 10px;
+}
+.slide .text h2 {
+    background-color: #ffffff;
+    padding: 0.3em;
+    color: #3C2313;
+    font-size: 30px;
+    font-weight: 500;
+}
+.slide .text p {
+    color: #3C2313;
+}
+.slide .text a {
+    width: fit-content;
+    text-align: center;
+    background-color: #F0A83E;
+    font-weight: 500;
+    padding: 1em
+}
+
+/* Estilos en los productos*/
+
+.products {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px 95px;
+}
+.products-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items: center;
+}
+.products-nav  h1{
+    color: #3C2313;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+.products-nav ul{
+    display: flex;
+    gap: 1em;
+}
+.products-nav ul li  a, .products-nav ul li{
+    color: #666666;
+}
+
+.cards {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    gap: 1em;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: #faf4f4;
+}
+
+.card p {
+    color: #3C2313;
+}
+.card span {
+    color: #F0A83E;
+}
+
+/* Estilos del formulario*/
+.form-contact {
+    display: flex;
+    justify-content: center;
+}
+.form-contact  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+}
+.form-contact  form h2 {
+    color: #3C2313;
+    font-weight: bold;
+    font-size: 25px;
+}
+.form-contact  form input{
+    background-color: #3C2313;
+    color: white;
+    width: 340px;
+    padding: 15px;
+    border-radius: 15px;
+    border: none;  
+
+}
+.form-contact  form input::placeholder {
+    color: #ffffff;
+}
+
+.btns-form {
+    display: flex;
+    gap: 1em;
+}
+
+.btns-form  .reset{
+    border-radius: 15px;
+    background-color: #8A8787;
+    border: none;
+    color: white;
+    font-weight: 100;
+    width: 110px;
+    height: 30px;
+
+}
+
+.btns-form  .send{
+    border-radius: 50px;
+    background-color: #F0A83E;
+    border: none;
+    color: white;
+    font-weight: 100;
+    width: 110px;
+    height: 30px;
+
+}
+
+
+
+
+/* Estilos del suscribete*/
+
+.subscribe {
+    margin-top: 50px;
+    background-color: #F0A83E;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    padding: 10px 25px;
+}
+
+.subs-text {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    font-size: 20px;
+}
+.subs-text img {
+    width: 40px;
+}
+
+.subs-form  form{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.subs-form form ul li input {
+    width: 270px;
+    border: none;
+}
+.subs-form form ul {
+    display: flex;
+    flex-direction: row;;
+}
+.subs-form form ul li input::placeholder{
+    color: #A0A0A0;
+    padding: 1em;
+}
+.subs-form form input, .subs-form form button {
+    height: 40px;
+    border-radius: 15px;
+    border: none;
+}
+.subs-form  form ul li button {
+    background-color: #3C2313;
+    padding: 1em;
+}
+
+/* Estilos del footer*/
+
+footer .footer-inf {
+    background-color: #3C2313;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0px;
+    align-items: center;
+}
+.footer-nav ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.footer-nav ul li {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    font-size: 20px;
+}
+.footer-nav ul li div {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.footer-nav ul li div p {
+    font-size: 10px;
+    color: #8A8787;
+}
+
+footer .footer-inf .logo span{
+    color: #ffffff;
+}
+footer .footer-inf .logo p {
+    color: #F0A83E;
+}
+/* Estilos del footer bottom*/
+footer .bottom {
+    background-color: #222222;
+    text-align: center;
+    font-size: 10px;
+    padding: 5px;
+}
+
+/*Estilos de Media Querie*/
+
+
+@media only screen and (max-width: 650px) {
+    .header nav {
+        display: none;
+    }
+
+    .header .menu {
+        display: block;
+        font-weight: 900;
+        font-size: 20px;
+        transform: rotate(90deg);
+        -webkit-transform: rotate(90deg);
+        -moz-transform: rotate(90deg);
+        -o-transform: rotate(90deg);
+    }
+    .slide .text {
+        display: flex;
+        align-items: end;
+    }
+}
